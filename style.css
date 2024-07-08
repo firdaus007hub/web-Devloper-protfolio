@@ -81,10 +81,14 @@ nav a{
     margin-bottom: 20px;
 }
 /*main section style */
-    main{
-        max-width: 1140px;
-        margin: 0 auto;
-    }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
 /*about section style */
 .about{
     padding: 130px;
@@ -102,6 +106,27 @@ nav a{
 .info-description{
     text-align: center;
 }
+/*  Skill related style */
 #what-i-do-description{
     padding: 30px 150px;
+}
+.sikll-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.section-description{
+    color: #757575;
+}
+
+/* Resumi Section Item*/
+
+.resumi-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
