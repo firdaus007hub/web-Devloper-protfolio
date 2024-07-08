@@ -130,3 +130,28 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
+.resumi-container{
+    display: flex;
+    gap:50px;
+}
+.resumi-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resumi-item-description{
+    color: #757575;
+}
+.resumi-item-institute{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resumi-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
